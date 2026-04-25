@@ -1,0 +1,57 @@
+DLPFC:
+  epochs: 1500
+  neighbors: 2
+  annealing: None
+  init_t: 6
+  ft_epochs: 500
+  batch: False
+  load_image: True
+  hvg: 3000
+  ST: Visium
+  learning_rate: 0.001
+  learning_rate_t: 0.00005
+
+
+HBC:
+  epochs: 1500
+  neighbors: 2
+  annealing: None
+  init_t: 6
+  ft_epochs: 500
+  batch: False
+  load_image: True
+  hvg: 3000
+  ST: Visium
+  learning_rate: 0.001
+  learning_rate_t: 0.00005
+
+CRC: 
+  epochs: 1500
+  neighbors: 3
+  annealing: None
+  init_t: 6
+  ft_epochs: 500
+  batch: False
+  load_image: True
+  hvg: 3000
+  ST: Visium
+  learning_rate: 0.001
+  learning_rate_t: 0.00005
+
+CRC_HD:
+  epochs: 2000
+  neighbors: 2
+  annealing: None
+  init_t: 6
+  ft_epochs: 100
+  batch: True
+  batch_size: 4096
+  load_image: False
+  hvg: 3000
+  k_iter: 30
+  n_iter: 100
+  scaling: True
+  drop_housekeeping: True
+  ST: HD
+  learning_rate: 0.001
+  learning_rate_t: 0.0005
